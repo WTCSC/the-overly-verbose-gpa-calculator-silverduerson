@@ -12,30 +12,30 @@ It allows the user to:
 
 ## Decision Tree
 Start
-│
-├─► Welcome message
-│
-├─► Input 5 grades (each 0.0–4.0)
-│ └─ Validate each grade
-│
-├─► Calculate current GPA
-│
-├─► Ask: Analyze "first" or "second" half?
-│ ├─ If first → use first half of grades
-│ └─ If second → use second half
-│
-├─► Calculate semester GPA
-│ ├─ If higher → "Good job!"
-│ ├─ If lower → "Time to lock in!"
-│ └─ If same → "Consistent work!"
-│
-├─► Ask for goal GPA
-│ ├─ If goal ≤ current → "Already meets goal!"
-│ └─ If goal > current → Check if achievable by raising one grade to 4.0
-│ ├─ If yes → Show which grade(s) to improve
-│ └─ If no → Suggest improving multiple grades
-│
-└─► End program with thank-you message
+│                                                                          
+├─► Welcome message                                                             
+│                                                                                       
+├─► Input 5 grades (each 0.0–4.0)                                                              
+│ └─ Validate each grade                                                        
+│                                                                    
+├─► Calculate current GPA                                                            
+│                                                                                              
+├─► Ask: Analyze "first" or "second" half?                                                
+│ ├─ If first → use first half of grades                                            
+│ └─ If second → use second half                                                
+│                                                                
+├─► Calculate semester GPA                                        
+│ ├─ If higher → "Good job!"                                          
+│ ├─ If lower → "Time to lock in!"                                                      
+│ └─ If same → "Consistent work!"                                    
+│                                                        
+├─► Ask for goal GPA                                                                  
+│ ├─ If goal ≤ current → "Already meets goal!"                                                        
+│ └─ If goal > current → Check if achievable by raising one grade to 4.0                                  
+│ ├─ If yes → Show which grade(s) to improve                                                
+│ └─ If no → Suggest improving multiple grades                                                    
+│                                                            
+└─► End program with thank-you message                                            
 
 
 ---
